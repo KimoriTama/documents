@@ -20,6 +20,7 @@
 
 ## サンプル
 '''
+
 class MainWindow extends Window {
 	var base;
 	var layer;
@@ -85,6 +86,7 @@ class MainWindow extends Window {
 }
 var win = new MainWindow(640,480);
 win.visible = true;
+
 '''
 
 [GitHub にも同じサンプルが上げてある。
