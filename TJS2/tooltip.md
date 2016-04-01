@@ -19,7 +19,7 @@
 従来は、標準の味気ない表示のみだったが、レイヤーに任意に描画可能としたことで、文字のみではなく画像などを用いて表示も可能となった。
 
 ## サンプル
-``
+```
 class MainWindow extends Window {
 	var base;
 	var layer;
@@ -85,7 +85,7 @@ class MainWindow extends Window {
 }
 var win = new MainWindow(640,480);
 win.visible = true;
-``
+```
 
 [GitHub にも同じサンプルが上げてある。
 ](https://github.com/krkrz/krkrz/blob/master/script/Sample/tooltip/startup.tjs)

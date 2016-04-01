@@ -22,7 +22,7 @@ onLoaded で他のオブジェクトへアクセスする場合は、無効化�
 もしくは、onLoaded が完了するまで無効化されないようにする必要がある。  
 
 ## サンプルスクリプト
-``
+```
 /*
 image0.png ～ image9.png を10回非同期で読み込む
 */
@@ -116,7 +116,7 @@ class MainWindow extends Window {
 
 var win = new MainWindow(640,480);
 win.visible = true;
-``
+```
 
 [GitHubに入っているものと同じ](https://github.com/krkrz/krkrz/blob/master/script/Sample/asyncimageload/startup.tjs)
 
