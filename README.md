@@ -9,6 +9,7 @@
 ## TJS2 で利用する本体機能
 * [ツールチップの表示方法](./TJS2/tooltip.md)
 * [非同期画像読み込み](./TJS2/asyncimageload.md)
+* [吉里吉里2と吉里吉里Zの判別方法](./TJS2/check_2_z.md)
 
 ## 本体(exe)変更者向け情報
 * [エンジン設定の追加/編集](./core/engine_setting.md)
