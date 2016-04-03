@@ -12,6 +12,8 @@
 * [吉里吉里2と吉里吉里Zの判別方法](./TJS2/check_2_z.md)
 * [動画の再生方法](./TJS2/playmovie.md)
 * [吉里吉里Zで削除された機能](./TJS2/deleted.md)
+* [サポートするファイルフォーマット](./TJS2/fileformat.md)
+
 
 ## 本体(exe)変更者向け情報
 * [エンジン設定の追加/編集](./core/engine_setting.md)
