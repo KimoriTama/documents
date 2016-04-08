@@ -13,6 +13,7 @@
 * [動画の再生方法](./TJS2/playmovie.md)
 * [吉里吉里Zで削除された機能](./TJS2/deleted.md)
 * [サポートするファイルフォーマット](./TJS2/fileformat.md)
+* [型指定構文](./TJS2/type_specified.md)
 
 ## ツール
 * [Releaser](./tools/releaser.md)
