@@ -28,7 +28,7 @@ title: 吉里吉里Zで削除された機能
 吉里吉里Zリポジトリに同梱されている Krkr2Compat を読み込むと利用可能。
 
 ## Layer.hint
-TJS で実装可能。詳しくは[ツールチップの表示方法](./tooltip.md)を参照。
+TJS で実装可能。詳しくは[ツールチップの表示方法](./tooltip.html)を参照。
 
 ## Layer クラスの obsolete メソッド
 affineBlend/affinePile/blendRect/pileRect/stretchBlend/stretchPileメソッドは以下のようなTJS で実装可能。
