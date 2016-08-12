@@ -19,5 +19,6 @@ title: 画像拡大縮小フィルタ
 
 吉里吉里2 では、バイキュービックはかなり遅くて使いづらかったが、現在の吉里吉里Zでは高速化され、どのフィルタでも使用できる程度の速度になっている。
 
-![参考画像](http://krkrz.github.io/documents/img/resample_sample.png "実行結果サンプル")
+※ 参考画像 : 別サイトの画像
+![参考画像](http://kaede-software.com/krkrz/resample_20140404.png "実行結果サンプル")
 
