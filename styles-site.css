@@ -35,6 +35,13 @@ h1, h2, h3 {
 	background-color: #FFFFFF;
 	border: 1px solid #000000;
 }
+#container h2 {
+	font-size: 1.0em;
+	background-color: #001591;
+	color: #FFFFFF;
+	padding-left: 1em;
+	font-weight: bold;
+}
 
 .title_bar {
 	font-size: 1.0em;

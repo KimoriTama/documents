@@ -16,6 +16,7 @@ title: 吉里吉里Z 情報
 * [吉里吉里Zで削除された機能](./TJS2/deleted.html)
 * [サポートするファイルフォーマット](./TJS2/fileformat.html)
 * [型指定構文](./TJS2/type_specified.html)
+* [画像拡大縮小フィルタ](./TJS2/imagescaling.html)
 
 ## ツール
 * [Releaser](./tools/releaser.html)
