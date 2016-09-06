@@ -1,3 +1,11 @@
 markdown: kramdown
 url: http://krkrz.github.io/documents/
 highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+gems:
+    - jemoji
+    - jekyll-mentions
+    - jekyll-sitemap
+    - jekyll-feed
