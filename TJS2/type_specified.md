@@ -10,31 +10,31 @@ title: 型指定構文
 
 ## 変数宣言
 変数名にコロンをつけ、その後に型を指定できる。
-~~~
+{% highlight javascript %}
 var i:int;
 var win:Window = new Window();
-~~~
+{% endhighlight %}
 
 ## 関数定義
 引数名にコロンをつけ、その後に型を指定できる。
 戻り値は引数リストの後に指定できる。
-~~~
+{% highlight javascript %}
 function add(param1:int, param2:int) : int {
     return param1 + param2;
 }
-~~~
+{% endhighlight %}
 
 ## 式中関数
 関数定義と同様に引数と戻り値の型を指定できる。
-~~~
+{% highlight javascript %}
 var f = function(param1:string) : void {};
-~~~
+{% endhighlight %}
 
 ## プロパティ定義
 setterの引数とgetterの戻り値の型をそれぞれ指定できる。
-~~~
+{% highlight javascript %}
 property prop {
     setter(value:int) {}
     getter:int { return 0; }
 }
-~~~
+{% endhighlight %}
