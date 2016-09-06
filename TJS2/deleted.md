@@ -32,7 +32,7 @@ TJS で実装可能。詳しくは[ツールチップの表示方法](./tooltip.
 ## Layer クラスの obsolete メソッド
 affineBlend/affinePile/blendRect/pileRect/stretchBlend/stretchPileメソッドは以下のようなTJS で実装可能。
 
-```
+{% highlight javascript %}
 Layer.affineBlend = function(src, sleft, stop, swidth, sheight, affine, A, B, C, D, E, F, opa=255, type=stNearest) {
     this.operateAffine(src, sleft, stop, swidth, sheight, affine, A, B, C, D, E, F, omOpaque, opa, type);
 };
@@ -51,4 +51,4 @@ Layer.stretchBlend = function(dleft, dtop, dwidth, dheight, src, sleft, stop, sw
 Layer.stretchPile = function(dleft, dtop, dwidth, dheight, src, sleft, stop, swidth, sheight, opa=255, type=stNearest) {
     this.operateStretch(dleft, dtop, dwidth, dheight, src, sleft, stop, swidth, sheight, omAuto, opa, type);
 };
-```
+{% endhighlight %}
