@@ -25,6 +25,7 @@ title: 吉里吉里Z 情報
 
 ## 本体(exe)変更者向け情報
 * [エンジン設定の追加/編集](./core/engine_setting.html)
+* [コマンドラインオプション](./core/commandline.html)
 * [吉里吉里Z固有のクラッキング対策](./core/anti_cracking.html)
 * [メモリ不足対策](./core/low_memory.html)
 
