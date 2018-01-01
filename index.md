@@ -28,6 +28,3 @@ title: 吉里吉里Z 情報
 * [コマンドラインオプション](./core/commandline.html)
 * [吉里吉里Z固有のクラッキング対策](./core/anti_cracking.html)
 * [メモリ不足対策](./core/low_memory.html)
-
-
-### [このドキュメントのライセンス](LICENSE.html)

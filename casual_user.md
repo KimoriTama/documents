@@ -17,6 +17,7 @@ title: ライトユーザー/初心者向け 情報
 吉里吉里2の時は、KKDE/かぐや姫studioなどありましたが、吉里吉里Zでは[KKEFZ](https://github.com/mryp/kkefz)が使えます。  
 とりあえずは、[v1.0.0 FD有り版ダウンロード](https://github.com/mryp/kkefz/raw/master/_release/FlashDevelop-4.6.2_kkefz-1.0.0.zip)を選択してダウンロードすると良いでしょう。  
 FlashDevelopを既に使っている方はプラグインのみの方問題ないと思います。  
+なお、KKEFZに同梱されている吉里吉里Zはバージョンが古いようなので、新しいものへ差し替えた方が良いでしょう。  
 
 ## コンソール
 吉里吉里Zではコンソールがなくなり、コマンドラインから起動された場合はコマンドラインへ出力されるようになっています。  
@@ -24,4 +25,4 @@ FlashDevelopを既に使っている方はプラグインのみの方問題な�
 コマンドラインがよくわからない場合は、[Krkr2Compat](https://github.com/krkrz/Krkr2Compat)を導入すると吉里吉里2のようなコンソールを追加できます。 
 右にある緑の「Clone or download」ボタンから、Dowonload ZIPを選ぶことでダウンロードできます。  
 [ここに同じリンク](https://github.com/krkrz/Krkr2Compat/archive/master.zip)を置いておくので、左述のリンクをクリックしてもダウンロードできます。 
-使い方は[00README.txt](https://github.com/krkrz/Krkr2Compat/blob/master/00README.txt)を読んでください。
+使い方は[00README.txt](https://github.com/krkrz/Krkr2Compat/blob/master/00README.txt)を読んでください。  
