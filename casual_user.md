@@ -25,7 +25,7 @@ title: ライトユーザー/初心者向け 情報
 FlashDevelopを既に使っている方はプラグインのみの方問題ないと思います。  
 なお、KKEFZに同梱されている吉里吉里Zはバージョンが古いようなので、新しいものへ差し替えた方が良いでしょう。  
  -->
-吉里吉里2的时候，有KKDE/辉和姬studio等，吉里吉里Z可以使用[KKEFZ]（https://github.com/mryp/kkefz）。
+吉里吉里2的时候，有KKDE/辉和姬studio等，吉里吉里Z可以使用[KKEFZ](https://github.com/mryp/kkefz)。
 首先，您可以选择下载[v1.0.0 FD版本下载](https://github.com/mryp/kkefz/raw/master/_release/FlashDevelop-4.6.2_kkefz-1.0.zip)。
 如果您已经使用了FlashDevelop，我认为只使用插件不会有问题。
 再者，KKEFZ附带的吉里吉里Z因为版本似乎较旧，更换新版本较好。
