@@ -19,7 +19,7 @@ title: ライトユーザー/初心者向け 情報
 如果您想让吉里吉里2和吉里吉里Z都能使用，则必须采用UTF-16LE（带BOM）格式。
 关于这个用上述的工具无法使用的话，请找其他的工具。
 
-## 输入插值编辑器
+## 输入补全编辑器
 <!-- 吉里吉里2の時は、KKDE/かぐや姫studioなどありましたが、吉里吉里Zでは[KKEFZ](https://github.com/mryp/kkefz)が使えます。  
 とりあえずは、[v1.0.0 FD有り版ダウンロード](https://github.com/mryp/kkefz/raw/master/_release/FlashDevelop-4.6.2_kkefz-1.0.0.zip)を選択してダウンロードすると良いでしょう。  
 FlashDevelopを既に使っている方はプラグインのみの方問題ないと思います。  
