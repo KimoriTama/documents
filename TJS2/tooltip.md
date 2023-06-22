@@ -1,27 +1,27 @@
 ---
 layout: default
-title: ツールチップの表示方法
+title: 工具提示的显示方法
 ---
-
-ツールチップとは、マウスオーバーで表示される簡単なヘルプのことです。  
-具体的には Layer.hint で表示されるものです。  
-吉里吉里内ではヒントと呼ばれています。  
-吉里吉里2 では OS の機能(厳密にはVCL)によって表示されていましたが、吉里吉里Zでは任意レイヤーを表示させるように仕様が変更されています。  
-なお、マウスオーバーはタッチパネルを持ったタブレットデバイスなどでは表示することが出来ないため、別の方法で表示できるようにする必要があります。  
-
+ 
+工具提示是鼠标悬停时显示的简单帮助。
+具体用Layer.hint表示的内容。
+吉里吉里内称为提示。
+在吉里吉里2中根据OS的功能（严格地说是VCL）来显示，但是在吉里吉里Z中为了显示任意层而改变了规格。
+另外，鼠标悬停在带有触摸面板的平板设备上是无法显示的，因此必须以其他方式显示鼠标悬停。
 ## 仕様
-* ヒントを設定し、カーソルが一定時間停止しヒント表示タイミングになると Window.onHintChanged(text:string,x:int,y:int,isshow:bool) イベントが発生する。  
-* カーソル停止時間は、property:Window.hintDelay で指定可能。  
-デフォルトは 500 (msec) 。  
-従来は固定値だったものを変更可能にした。  
-* ヒントを描画するレイヤーには property:Layer.ignoreHintSensing を有効にして、ヒント表示を無視させる。
-* isshow が false でイベントが来たら非表示にする。
+* 设置提示后，当光标停止一段时间并到达提示显示时间时，将发生Window.onHintChanged（text:string，x:int，y:int，isshow:bool）事件。
+* 鼠标停止时间可由property:Window.hintDelay指定。
+默认值为500（毫秒）。
+以前是固定值的东西现在可以变更。
+* 对要绘制提示的图层启用property:Layer.ignoreHintSensing以忽略提示显示。
+* isshow为false，事件出现时隐藏。
 
-これで onHintChanged で isshow が true の時、ヒントを最前面レイヤーに描画し、ヒントレイヤーはマウスメッセージは無視されるように設定すれば従来と同じような表示が出来る。  
 
-従来は、標準の味気ない表示のみだったが、レイヤーに任意に描画可能としたことで、文字のみではなく画像などを用いて表示も可能となった。
+这样在onHintChanged中isshow为true时，将提示描绘在最前面的层上，提示层如果设定为忽略鼠标消息，则可以显示与以前相同的显示。
 
-## サンプル
+以前，只是标准的枯燥显示，但是由于可以在图层上任意描绘，所以不仅可以用文字，也可以用图像等来表示。
+
+## 样例
 {% highlight javascript linenos %}
 class MainWindow extends Window {
 	var base;
@@ -90,5 +90,4 @@ var win = new MainWindow(640,480);
 win.visible = true;
 {% endhighlight %}
 
-[GitHub にも同じサンプルが上げてある。
-](https://github.com/krkrz/krkrz/blob/master/script/Sample/tooltip/startup.tjs)
+[ GitHub也有同样的示例。](https://github.com/krkrz/krkrz/blob/master/script/Sample/tooltip/startup.tjs)

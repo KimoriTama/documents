@@ -26,7 +26,7 @@ title: 吉里吉里Z 信息
 * [Releaser](./tools/releaser.html)
 
 ## 针对本体（exe）更改者的信息
-* [エンジン設定の追加/編集](./core/engine_setting.html)
+* [引擎设置的添加/编辑](./core/engine_setting.html)
 * [命令行选项](./core/commandline.html)
 * [吉里吉里Z固有的破解对策](./core/anti_cracking.html)
 * [内存不足对策](./core/low_memory.html)

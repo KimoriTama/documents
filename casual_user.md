@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ライトユーザー/初心者向け 情報
+title: 轻度用户/初学者 信息
 ---
 
 也请参照[吉里吉里Z 信息](./index.html)。

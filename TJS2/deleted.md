@@ -1,36 +1,36 @@
 ---
 layout: default
-title: 吉里吉里Zで削除された機能
+title: 吉里吉里Z本体中被删除功能 
 ---
 
-吉里吉里Z本体からは削除された機能でもプラグインなどを入れると使用できる。
+即使是从吉里吉里Z本体中被删除的功能，只要加入插件等就可以使用。
 
-## KagParser クラス
-吉里吉里Zリポジトリに同梱されている KAGParser.dll をリンクすると利用可能。
+## KagParser 类
+<!-- 吉里吉里Zリポジトリに同梱されている KAGParser.dll をリンクすると利用可能。 -->
+链接吉里吉里Z仓库附带的KAGParser.dll即可使用。
+## Menu 类
+链接吉里吉里Z仓库附带的menu.dll即可使用。
 
-## Menu クラス
-吉里吉里Zリポジトリに同梱されている menu.dll をリンクすると利用可能。
+## Pad 类
+链接吉里吉里Z仓库附带的Krkr2Compat即可使用。
 
-## Pad クラス
-吉里吉里Zリポジトリに同梱されている Krkr2Compat を読み込むと利用可能。
+## 控制台窗口(Debug.console)
+链接吉里吉里Z仓库附带的Krkr2Compat即可使用。
 
-## コンソールウィンドウ(Debug.console)
-吉里吉里Zリポジトリに同梱されている Krkr2Compat を読み込むと利用可能。
+## 脚本编辑器
+链接吉里吉里Z仓库附带的Krkr2Compat即可使用。
 
-## スクリプトエディタ
-吉里吉里Zリポジトリに同梱されている Krkr2Compat を読み込むと利用可能。
+## 字体选择器(Font.doUserSelect)
+链接吉里吉里Z仓库附带的Krkr2Compat即可使用。
 
-## フォント選択ダイアログ(Font.doUserSelect)
-吉里吉里Zリポジトリに同梱されている Krkr2Compat を読み込むと利用可能。
-
-## 1行入力ダイアログ(System.inputString)
-吉里吉里Zリポジトリに同梱されている Krkr2Compat を読み込むと利用可能。
+## 单行对话框(System.inputString)
+链接吉里吉里Z仓库附带的Krkr2Compat即可使用。
 
 ## Layer.hint
-TJS で実装可能。詳しくは[ツールチップの表示方法](./tooltip.html)を参照。
+可通过TJS实现。有关详细信息，请参见[如何显示工具提示](./tooltip.html)。
 
-## Layer クラスの obsolete メソッド
-affineBlend/affinePile/blendRect/pileRect/stretchBlend/stretchPileメソッドは以下のようなTJS で実装可能。
+## Layer 类的 obsolete 方法
+affineBlend/affinePile/blendRect/pileRect/stretchBlend/stretchPile方法可以在以下TJS中实现。
 
 {% highlight javascript %}
 Layer.affineBlend = function(src, sleft, stop, swidth, sheight, affine, A, B, C, D, E, F, opa=255, type=stNearest) {
