@@ -5,7 +5,7 @@ title: 图像异步读入
 
 <!-- 標準の画像読み込みは読み込みを要求した時、その読み込みの完了を待って処理をするが、非同期読み込みでは画像の読み込みをバックグラウンドで行いながら他の処理を出来る。  
 このためディスクからの読み込みと言う遅い処理をあまり感じさせないような作りにすることも可能になる。   -->
-标准的图像读入在要求读入时，等待读入完成后进行处理，异步读入中，在后台进行图像读入的同时可以进行其他的处理。
+标准的图像读入在要求读入时，等待读入完成后进行处理，异步读入中，在后台进行图像读入的同时可以进行其他的处理。  
 因此，也可以制作成让人无法感觉到从磁盘缓慢的读取的效果。
 
 ## 用法
@@ -27,26 +27,26 @@ title: 图像异步读入
 読込み処理は非同期であるため、読込みが完了した時に、その画像を渡す Layer が既に無効化されている可能性がある。  
 onLoaded で他のオブジェクトへアクセスする場合は、無効化されていないか確認した方が良い。  
 もしくは、onLoaded が完了するまで無効化されないようにする必要がある。   -->
-导入的图像可以通过 Layer.copyFromBitmapToMainImage（Bitmap）从Bitmap复制到Layer。
-虽然说是复制，但在被更改之前还是共享的，一瞬间就结束了。
-由于读取处理是异步的，在读取完成时，传递该图像的Layer有可能已经被无效化。
-用onLoaded访问其他对象时，最好确认是否被无效化。
-或者，需要在onLoaded完成之前不使其无效化。
+导入的图像可以通过 Layer.copyFromBitmapToMainImage（Bitmap）从Bitmap复制到Layer。  
+虽然说是复制，但在被更改之前还是共享的，一瞬间就结束了。  
+由于读取处理是异步的，在读取完成时，传递该图像的Layer有可能已经被无效化。  
+用onLoaded访问其他对象时，最好确认是否被无效化。  
+或者，需要在onLoaded完成之前不使其无效化。  
 
 ## 示例脚本
 {% highlight javascript linenos %}
-/*
-异步读取iimage0.png ～ image9.png 10次
-*/
-System.setArgument("-contfreq", 60);
-System.graphicCacheLimit = 0;
-// 启用缓存后无意义，将图像缓存关闭 
+/*  
+异步读取iimage0.png ～ image9.png 10次  
+*/  
+System.setArgument("-contfreq", 60);  
+System.graphicCacheLimit = 0;  
+// 启用缓存后无意义，将图像缓存关闭   
 
-class Bitmap2Layer extends Bitmap {
-	var target;
-	var tag;
-	function Bitmap2Layer(layer,filename) {
-		super.Bitmap();
+class Bitmap2Layer extends Bitmap {  
+	var target;  
+	var tag;  
+	function Bitmap2Layer(layer,filename) {  
+		super.Bitmap();  
 		this.target = layer;
 		this.tag = filename;
 	}
